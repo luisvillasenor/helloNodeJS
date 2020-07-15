@@ -6,5 +6,5 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const app = express_1.default();
 app.get('/', (req, res) => res.send('Hello World!'));
-app.listen(3000, () => console.log('Example app listening on port 3000!'));
+app.listen(42069, () => console.log('Example app listening on port 42069!'));
 //# sourceMappingURL=server.js.map
